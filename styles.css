@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ad797900;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(252, 252, 252);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(21, 28, 136, 0.918);
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid rgba(204, 204, 204, 0.356);
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background-color: #2b2357;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4d4eb1;
+}
+
+#toggle-form {
+  text-align: center;
+}
+
+#solutions {
+  margin-top: 20px;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.social-media a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.social-media a:hover {
+  text-decoration: underline;
+}
+.banner-image {
+  display: block; /* Makes the image a block element */
+  margin: 0 auto; /* Centers the image horizontally */
+  width: 100%; /* Sets the width to 100% of its container */
+  max-width: 400px; /* Sets a maximum width */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 8px; /* Optional: adds rounded corners */
+}
